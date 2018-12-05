@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    line-height: 1.5;
+}
+
+.heading{
+    text-align: center;
+    border: 3px solid whitesmoke;
+    letter-spacing: 2px;
+    width: 60%;
+    color: red;
+    border-radius: 40px;
+    font-family: Algerian;
+    background-color: black;
+    font-size: 15px;
+    margin: 0 auto;
+    margin-top: 8px;
+    background-color: yellow;
+    text-transform: capitalize;
+}
+
+.section1, .section2{
+    border: 2px solid white;
+    width: 38%;
+    font-size: 25px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 1px 2px gray;
+    text-transform: capitalize;
+    font-family: Verdana;
+}
+
+.section1 input,.section2 input{
+    width: 250px;
+    text-align: center;
+}
+
+.section1 input:focus,.section2 input:focus{
+    background-color: rgb(247, 199, 158);
+}
+
+.section1:hover,.section2:hover{
+    border: 2px solid red;
+}
+
+.section1{
+    float: left;
+    margin-left: 100px;
+   
+}
+
+.section2{
+    float: right;
+    margin-right: 100px; 
+}
+
+.section3{
+   position: absolute;
+   left: 43%;
+   bottom: 70px;
+   width: 200px;
+}
+
+button{
+    width: 170px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 15px;
+    font-family: Impact;
+    text-shadow: 1px 2px 2px black;
+    font-size: 25px;
+    border: 2px solid white;
+
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+   
+}
